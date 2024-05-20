@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dominico</title>
+  </head>
+
+  <body>
+    <main id="principal">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="images/dominico.jpg" alt="" width="100px"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#nosotros"
+                  >Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#productos">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#ubicacion">Ubicación</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://drive.google.com/file/d/1cRf6v1NHi4VK1yMjxOxzPKzaAOhlTFup/view?usp=sharing"
+                  target="_blank"
+                  >Menú</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="modal" id="pdfModal">
+        <div class="modal-content">
+          <button class="close-button" id="closeButton">Salir</button>
+          <iframe id="pdfFrame" class="pdf-frame"></iframe>
+        </div>
+      </div>
+      <div class="container action-call text-center">
+        <h3>
+          "En cada taza de café, hay una historia, un momento para disfrutar y
+          un sueño por alcanzar. Bienvenidos a nuestra cafetería, donde cada
+          aroma despierta la inspiración y cada sorbo es un paso hacia tus
+          metas."
+        </h3>
+      </div>
+      <svg
+        id="wave"
+        style="transform: rotate(0deg); transition: 0.3s"
+        viewBox="0 0 1440 150"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <defs>
+          <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+            <stop stop-color="rgba(219, 164, 10, 1)" offset="0%"></stop>
+            <stop stop-color="rgba(243, 106, 62, 1)" offset="100%"></stop>
+          </linearGradient>
+        </defs>
+        <path
+          style="transform: translate(0, 0px); opacity: 1"
+          fill="url(#sw-gradient-0)"
+          d="M0,45L17.1,47.5C34.3,50,69,55,103,62.5C137.1,70,171,80,206,70C240,60,274,30,309,22.5C342.9,15,377,30,411,35C445.7,40,480,35,514,40C548.6,45,583,60,617,60C651.4,60,686,45,720,45C754.3,45,789,60,823,75C857.1,90,891,105,926,112.5C960,120,994,120,1029,115C1062.9,110,1097,100,1131,90C1165.7,80,1200,70,1234,70C1268.6,70,1303,80,1337,80C1371.4,80,1406,70,1440,62.5C1474.3,55,1509,50,1543,50C1577.1,50,1611,55,1646,57.5C1680,60,1714,60,1749,72.5C1782.9,85,1817,110,1851,112.5C1885.7,115,1920,95,1954,82.5C1988.6,70,2023,65,2057,57.5C2091.4,50,2126,40,2160,40C2194.3,40,2229,50,2263,62.5C2297.1,75,2331,90,2366,100C2400,110,2434,115,2451,117.5L2468.6,120L2468.6,150L2451.4,150C2434.3,150,2400,150,2366,150C2331.4,150,2297,150,2263,150C2228.6,150,2194,150,2160,150C2125.7,150,2091,150,2057,150C2022.9,150,1989,150,1954,150C1920,150,1886,150,1851,150C1817.1,150,1783,150,1749,150C1714.3,150,1680,150,1646,150C1611.4,150,1577,150,1543,150C1508.6,150,1474,150,1440,150C1405.7,150,1371,150,1337,150C1302.9,150,1269,150,1234,150C1200,150,1166,150,1131,150C1097.1,150,1063,150,1029,150C994.3,150,960,150,926,150C891.4,150,857,150,823,150C788.6,150,754,150,720,150C685.7,150,651,150,617,150C582.9,150,549,150,514,150C480,150,446,150,411,150C377.1,150,343,150,309,150C274.3,150,240,150,206,150C171.4,150,137,150,103,150C68.6,150,34,150,17,150L0,150Z"
+        ></path>
+      </svg>
+    </main>
+    <section class="local-info" id="nosotros">
+      <div
+        class="container d-flex justify-content-center container-polaroid"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        <div class="item" data-aos="fade-right" data-aos-duration="1000">
+          <div class="polaroid">
+            <img src="images/local.jpg" />
+            <div class="caption">Dominico</div>
+          </div>
+        </div>
+      </div>
+      <div class="container" data-aos="fade-up" data-aos-duration="1000">
+        <h2>Nuestro Local</h2>
+        <p>
+          En Dominico, llevamos más de una década y media ofreciendo la mejor
+          calidad y atención en café, pan y helado en Concepción. En nuestro
+          acogedor local, cada taza de café, cada bocado de pan recién horneado
+          y cada cucharada de helado artesanal refleja nuestro compromiso con la
+          excelencia y los detalles. Nos enorgullece ser parte de la comunidad
+          de Concepción y ser un lugar de encuentro para amigos, familias y
+          amantes de la buena comida. En Dominico, nuestra misión es sencilla:
+          brindarte lo mejor en cada visita, manteniendo viva nuestra tradición
+          de calidad y pasión por lo que hacemos. ¡Te esperamos para compartir
+          contigo momentos y sabores inolvidables en Dominico!
+        </p>
+      </div>
+    </section>
+    <section id="productos">
+      <div class="container separador">
+        <div class="line"></div>
+      </div>
+      <div class="container">
+        <h2>Nuestros Productos</h2>
+        <div class="pr">
+          <div class="service-item" data-aos="fade-up" data-aos-duration="1000">
+            <img src="images/confiteria.jpg" alt="Fastest Door Delivery" />
+            <div class="service-info">
+              <div class="service-icon">
+                <i class="fa-solid fa-cake-candles"></i>
+              </div>
+              <div>
+                <h3>Repostería</h3>
+                <p>
+                  Descubre nuestras exquisitas tartas y pasteles, hechos con
+                  amor y los mejores ingredientes. Perfectos para cualquier
+                  ocasión especial.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="service-item"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          >
+            <img src="images/Cafeteria.jpg" alt="Fresh Coffee Beans" />
+            <div class="service-info">
+              <div class="service-icon">
+                <i class="fa-solid fa-mug-saucer"></i>
+              </div>
+              <div>
+                <h3>Cafetería</h3>
+                <p>
+                  Relájate con una taza de nuestro café artesanal, acompañado de
+                  un ambiente acogedor. Ideal para tus momentos de pausa.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="service-item" data-aos="fade-up" data-aos-duration="1000">
+            <img src="images/panaderia.jpg" alt="Best Quality Coffee" />
+            <div class="service-info">
+              <div class="service-icon">
+                <i class="fa-solid fa-bread-slice"></i>
+              </div>
+              <div>
+                <h3>Panadería</h3>
+                <p>
+                  Prueba nuestros panes recién horneados, elaborados con recetas
+                  tradicionales. El sabor y la frescura que te mereces cada día.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="service-item"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          >
+            <img src="images/heladeria.jpg" alt="Online Table Booking" />
+            <div class="service-info">
+              <div class="service-icon">
+                <i class="fa-solid fa-ice-cream"></i>
+              </div>
+              <div>
+                <h3>Heladería</h3>
+                <p>
+                  Refréscate con nuestros helados artesanales, disponibles en
+                  una variedad de sabores únicos. Un placer que no puedes dejar
+                  pasar.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="ubicacion">
+      <h2>Donde Encontrarnos</h2>
+      <div class="container">
+        <div class="location" data-aos="flip-left" data-aos-duration="1000">
+          <div class="map" id="map1">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7087.9952818123365!2d-65.60045861887362!3d-27.344542244932022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9423cf42c68e304b%3A0x5500c0512b9e7d5b!2sDominico!5e0!3m2!1ses!2sar!4v1715883496734!5m2!1ses!2sar"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="description">
+            <h3>Dominico</h3>
+            <p>Calle: Dr. Nicolás Avellaneda 101</p>
+            <p>Ciudad de Concepción</p>
+          </div>
+        </div>
+        <div class="location" data-aos="flip-right" data-aos-duration="1000">
+          <div class="map" id="map2">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7087.949349981536!2d-65.61256076190998!3d-27.345260226876587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9423cf6fc9369c3d%3A0x46e790d42b40807a!2sDominico!5e0!3m2!1ses!2sar!4v1715883690938!5m2!1ses!2sar"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="description">
+            <h3>Dominico</h3>
+            <p>Calle: Vicente López y Planes</p>
+            <p>Ciudad de Concepción</p>
+          </div>
+        </div>
+        <div class="location" data-aos="flip-left" data-aos-duration="1000">
+          <div class="map" id="map3">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3543.981303199181!2d-65.59844892449445!3d-27.345053011406858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9423cf6813008477%3A0x1ee7270d812ccb7!2sGral.%20Jos%C3%A9%20de%20San%20Mart%C3%ADn%201702%2C%20T4146%20Concepci%C3%B3n%2C%20Tucum%C3%A1n!5e0!3m2!1ses!2sar!4v1715883827964!5m2!1ses!2sar"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="description">
+            <h3>Dominico</h3>
+            <p>Calle: Gral. José de San Martín 1702</p>
+            <p>Ciudad de Concepción</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <footer class="container">
+        <p class="col-md-4 mb-0 text-muted">© 2022 Company, Inc</p>
+
+        <a
+          href="/"
+          class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
+        >
+          <img src="images/dominico.png" width="30%" alt="" />
+        </a>
+
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item">
+            <a href="#nosotros" class="nav-link px-2 text-muted">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a href="#productos" class="nav-link px-2 text-muted">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#ubicacion" class="nav-link px-2 text-muted">Ubicación</a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://drive.google.com/file/d/1cRf6v1NHi4VK1yMjxOxzPKzaAOhlTFup/view?usp=sharing"
+              target="_blank"
+              class="nav-link px-2 text-muted"
+              >Menú</a
+            >
+          </li>
+        </ul>
+      </footer>
+    </section>
+    <script
+      src="https://kit.fontawesome.com/047d6a5491.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="index.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
