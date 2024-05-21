@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
   const backgrounds = ['background1.jpg', 'background2.jpg', 'background3.jpg', 'background4.jpg'];
-  const intervalTime = 15000; // 15 segundos en milisegundos
+  const intervalTime = 5000; // 5 segundos en milisegundos
   
   let currentIndex = 0;
   const mainElement = document.getElementById('principal');
