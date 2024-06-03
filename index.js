@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     "background3.jpg",
     "background4.jpg",
   ];
-  const intervalTime = 5000; // 5 segundos en milisegundos
+  const intervalTime = 10000; // 10 segundos en milisegundos
 
   let currentIndex = 0;
   const mainElement = document.getElementById("principal");

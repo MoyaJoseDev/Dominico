@@ -109,8 +109,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
-  transition: 1s;
+  transition: 2s;
 }
 
 #wave {
