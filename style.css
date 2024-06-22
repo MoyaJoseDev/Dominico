@@ -463,3 +463,8 @@ footer {
     flex-direction: column;
   }
 }
+@media screen and (max-width: 500px){
+  .bt-gallery{
+    font-size: 1rem;
+  }
+}
