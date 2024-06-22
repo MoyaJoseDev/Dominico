@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "dominico";
+  src: url("../assets/fonts/Dominico.otf");
+}
+header {
+  font-family: "dominico";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: red;
+}
+header img {
+  max-width: 50%;
+}
+@media screen and (max-width: 800px) {
+  header img {
+    max-width: 100%;
+  }
+}
+header h2{
+    font-size: 4rem;
+    color: black;
+}

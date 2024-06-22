@@ -4,10 +4,10 @@ window.addEventListener("load", function () {
 });
 document.addEventListener("DOMContentLoaded", function () {
   const backgrounds = [
-    "images/background1.jpg",
-    "images/background2.jpg",
-    "images/background3.jpg",
-    "images/background4.jpg",
+    "assets/images/background1.jpg",
+    "assets/images/background2.jpg",
+    "assets/images/background3.jpg",
+    "assets/images/background4.jpg",
   ];
 
   let main = document.getElementById('principal')
